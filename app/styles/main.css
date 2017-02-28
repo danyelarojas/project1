@@ -32,5 +32,55 @@ body {
 #avatar{
   border-style:1px solid black;
   border-radius:5px;
-  margin:10px;
+  margin-top: 20px;
+  margin-left: 50px;
+  max-width: 200px;
+}
+
+
+.deets .card i {
+    display: block;
+    font-size: 58px;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    margin: 0px;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.card .card-content {
+  align:center;
+    padding: 20px;
+    border-radius: 0 0 2px 2px;
+}
+
+.card .card-content .card-title {
+    line-height: 48px;
+}
+.card .card-title {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.card .card-content p{
+  font-size: 15px;
+}
+
+#deetz{
+  margin: auto;
+}
+
+
+.c3-axis-y .tick line {
+   display: none;
+}
+
+
+#nameblock h1{
+  padding-top: 50px;
 }
