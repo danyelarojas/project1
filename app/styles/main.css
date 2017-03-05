@@ -100,3 +100,48 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d2653', end
   padding-top: 50px;
   font-size: 20px;
 }
+
+
+.scrollToTop{
+	width:100px;
+	height:100px;
+	padding:10px;
+	text-align:center;
+  background: #c64272;
+   background-image: -webkit-linear-gradient(top, #c64272, #6d2653);
+   background-image: -moz-linear-gradient(top, #c64272, #6d2653);
+   background-image: -ms-linear-gradient(top, #c64272, #6d2653);
+   background-image: -o-linear-gradient(top, #c64272, #6d2653);
+   background-image: linear-gradient(to bottom, #c64272, #6d2653);
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+	display:none;
+
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+.scrollToTopButton{
+background: #c64272;
+ background-image: -webkit-linear-gradient(top, #c64272, #6d2653);
+ background-image: -moz-linear-gradient(top, #c64272, #6d2653);
+ background-image: -ms-linear-gradient(top, #c64272, #6d2653);
+ background-image: -o-linear-gradient(top, #c64272, #6d2653);
+ background-image: linear-gradient(to bottom, #c64272, #6d2653);
+ -webkit-border-radius: 28;
+ -moz-border-radius: 28;
+ border-radius: 28px;
+ color: #ffffff;
+ font-size: 20px;
+ padding: 10px 20px 10px 20px;
+ text-decoration: none;
+
+}
+.scrollToTopButton:hover{
+  background: #9c999c;
+  text-decoration: none;
+}
